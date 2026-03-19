@@ -2,7 +2,7 @@ const { sumar, multiplicar, esPar } = require('../src/math');
 
 describe('sumar', () => {
   test('suma dos números positivos', () => {
-    expect(sumar(2, 3)).toBe(5);
+    expect(sumar(2, 100)).toBe(5);
   });
   test('suma con número negativo', () => {
     expect(sumar(-1, 4)).toBe(3);
