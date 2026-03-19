@@ -1,0 +1,29 @@
+{
+  "name": "ci-cd-pipeline-project",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint src/ tests/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@eslint/js": "^9.0.0",
+    "babel-jest": "^30.3.0",
+    "eslint": "^9.0.0",
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "transform": {},
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
