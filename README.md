@@ -1,6 +1,6 @@
 # CI/CD Pipeline Project
 
-![CI Pipeline](https://github.com/eliaswalton/ci-cd-pipeline-project/actions/workflows/ci.yml/badge.svg)
+![CI Pipeline]([![CI Pipeline](https://github.com/eliaswalton/ci-cd-pipeline-project/actions/workflows/ci.yml/badge.svg)](https://github.com/eliaswalton/ci-cd-pipeline-project/actions/workflows/ci.yml))
 
 Proyecto Node.js con pipeline de integración continua usando GitHub Actions.
 
